@@ -32,7 +32,7 @@ for APP1; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s $applications/pthread_benchmark/run_script/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 done
