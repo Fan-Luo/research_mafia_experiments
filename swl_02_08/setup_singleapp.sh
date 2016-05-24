@@ -13,7 +13,7 @@ for benchmark; do
                 cd $benchmark
                 ln -s $applications/pthread_benchmark/$benchmark .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$benchmark .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$benchmark .
                 cd ../
 done
 
@@ -25,7 +25,7 @@ for benchmark; do
                 cd $benchmark
                 ln -s $applications/pthread_benchmark/$benchmark .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$benchmark .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$benchmark .
                 cd ../
 done
 
@@ -37,7 +37,7 @@ for benchmark; do
                 cd $benchmark
                 ln -s $applications/pthread_benchmark/$benchmark .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$benchmark .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$benchmark .
                 cd ../
 done
 
@@ -49,7 +49,7 @@ for benchmark; do
                 cd $benchmark
                 ln -s $applications/pthread_benchmark/$benchmark .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$benchmark .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$benchmark .
                 cd ../
 done
 cd ../

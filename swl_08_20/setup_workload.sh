@@ -1,5 +1,6 @@
 #!/bin/sh
 
+mkdir workloads
 cd workloads
 GPGPUSIM_CONFIG=$1
 
@@ -16,7 +17,7 @@ for APP1; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 done
@@ -31,7 +32,7 @@ for APP1; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_script/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 done
@@ -47,7 +48,7 @@ for APP1; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 done
@@ -63,7 +64,7 @@ for APP1; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 done
@@ -74,7 +75,7 @@ for APP1 in $mylist; do
                 cd $APP1\_$APP1
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP1 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP1 .
                 cd ../        
 
         for APP2 in $mylist2; do
@@ -83,7 +84,7 @@ for APP1 in $mylist; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 		shift
@@ -96,7 +97,7 @@ for APP1 in $mylist; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 		shift
@@ -109,7 +110,7 @@ for APP1 in $mylist; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 		shift
@@ -121,7 +122,7 @@ for APP1 in $mylist2; do
                 cd $APP1\_$APP1
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP1 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP1 .
                 cd ../
 
         for APP2 in $mylist3; do
@@ -130,7 +131,7 @@ for APP1 in $mylist2; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 		shift
@@ -143,7 +144,7 @@ for APP1 in $mylist2; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 		shift
@@ -155,7 +156,7 @@ for APP1 in $mylist3; do
                 cd $APP1\_$APP1
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP1 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP1 .
                 cd ../
 
 
@@ -165,7 +166,7 @@ for APP1 in $mylist3; do
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/$APP2 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP2 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP2 .
                 cd ../
         done
 		shift
@@ -177,7 +178,7 @@ for APP1 in $mylist4; do
                 cd $APP1\_$APP1
                 ln -s $applications/pthread_benchmark/$APP1 .
                 ln -s $applications/pthread_benchmark/gpgpu_ptx_sim__mergedapps .
-                ln -s /sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_$APP1\_$APP1 .
+                ln -s $applications/pthread_benchmark/run_scripts/mainscript_$APP1\_$APP1 .
                 cd ../
 done
 
