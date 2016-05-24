@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l nodes=1:rhel6:compute:ppn=3
+#PBS -l walltime=24:00:00
+#PBS -N JPEG_NN
+#PBS -m a
+#PBS -M luofan813@gmail.com
+PROG=/sciclone/data20/fluo/GPU_RESEARCH/mafia_gpgpusim/run_scripts/mainscript_JPEG_NN
+ARGS=""
+cd $PBS_O_WORKDIR
+$PROG $ARGS
+exit 0

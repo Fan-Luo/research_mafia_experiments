@@ -1,0 +1,15 @@
+LUD_LUD 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+3DS_3DS 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+GUPS_GUPS 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+FWT_FWT 	Fan: 	FWT	FWT	MAX	instructions
+FWT_CONS 	Fan: 	FWT	CONS	MAX	instructions
+CONS_CONS 	Fan: 	CONS	CONS	MAX	instructions
+LUD_3DS 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+LUD_GUPS 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+LUD_FWT 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+LUD_CONS 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+3DS_GUPS 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+3DS_FWT 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+3DS_CONS 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+GUPS_FWT 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
+GUPS_CONS 	Fan: 	Fan: 	Fan: 	Fan: 	Fan: 
